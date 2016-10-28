@@ -10,7 +10,7 @@ reproduction_type    = DefaultReproduction
 
 # Rangefinder inputs, as well as food coordinate
 [phenotype]
-input_nodes          = 6
+input_nodes          = 5
 hidden_nodes         = 0
 output_nodes         = 1
 initial_connection   = unconnected
@@ -22,7 +22,7 @@ weight_stdev         = 1.0
 
 [genetic]
 pop_size                = 150
-max_fitness_threshold   = 0.95
+max_fitness_threshold   = 10000000
 prob_add_conn           = 0.988
 prob_add_node           = 0.085
 prob_delete_conn        = 0.146
